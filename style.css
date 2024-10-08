@@ -8,6 +8,7 @@
 .debug {
     border: 1px solid green;
 }
+
 /* general */
 :root {
     --color-orange: #ff6a00;
@@ -17,60 +18,111 @@
     --color-white: #ffffff;
 }
 
- img {
+img {
     max-width: 100%;
     height: auto;
- }
+}
 
 .bg-color-orange {
     background-color: var(--color-orange);
 }
+
+.bg-color-footer {
+    background-color: var(--color-footer);
+}
+
 .txt-color-white {
     color: var(--color-white);
 }
+
+.padding {
+    padding: 10px 10px;
+}
+
 /* body */
 li {
     list-style: none;
 }
+
 .img-logo {
     width: 200px;
     height: auto;
 }
+
 .image {
     width: calc((100% / 3) - 9px);
     gap: 9px;
     justify-content: space-between;
     position: relative;
+    margin: 30px 30px;
 }
+
 .container {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
+
 /* .widphoto {
     width: 30%;
     justify-content: space-between;
 }  */
+.doposconto {
+    color: var(--color-red);
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.primasconto {
+    text-decoration: line-through;
+}
+
+.modello {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* footer */
+footer div a {
+    color: white;
+}
+
+footer div ul li a {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.marginbottom {
+    margin-bottom: 20px;
+}
 
 /* flex */
 .d-flex {
     display: flex;
 }
+
 .warp {
     flex-wrap: wrap;
 }
+
 .space-around {
     justify-content: space-around;
 }
+
 .center {
     align-items: center;
 }
+
 header nav ul li a {
     color: white;
     display: flex;
     justify-content: space-around;
     padding: 10px;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 /* position */
@@ -86,10 +138,12 @@ header nav ul li a {
     font-size: 20px;
     cursor: pointer;
 }
+
 .cuore:hover {
     color: var(--color-red);
     background-color: var(--color-red);
 }
+
 .percsconto {
     position: absolute;
     bottom: 100px;
@@ -98,4 +152,26 @@ header nav ul li a {
     color: var(--color-white);
     padding: 5px 10px;
     font-size: 16px;
+}
+
+.sostenibilita {
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sostenibilita2 {
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
 }

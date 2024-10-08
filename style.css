@@ -30,10 +30,17 @@ li {
     width: 40%;
     height: auto;
 }
+.image {
+    width: calc((100% - 10px) / 3);
+    position: relative;
+}
 
 /* flex */
 .d-flex {
     display: flex;
+}
+.warp {
+    flex-wrap: wrap;
 }
 .space-around {
     justify-content: space-around;

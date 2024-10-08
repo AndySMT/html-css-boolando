@@ -6,5 +6,44 @@
 }
 
 .debug {
-    border: 1px solid red;
+    border: 1px solid green;
+}
+/* general */
+:root {
+    --color-orange: #ff6a00;
+    --color-footer: #1a1a1a;
+    --color-red: #ff0000;
+    --color-green: #008000;
+    --color-white: #ffffff;
+}
+.bg-color-orange {
+    background-color: var(--color-orange);
+}
+.txt-color-white {
+    color: var(--color-white);
+}
+/* body */
+li {
+    list-style: none;
+}
+.img-logo {
+    width: 40%;
+    height: auto;
+}
+
+/* flex */
+.d-flex {
+    display: flex;
+}
+.space-around {
+    justify-content: space-around;
+}
+.center {
+    align-items: center;
+}
+header nav ul li a {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }

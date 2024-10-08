@@ -16,6 +16,12 @@
     --color-green: #008000;
     --color-white: #ffffff;
 }
+
+ img {
+    max-width: 100%;
+    height: auto;
+ }
+
 .bg-color-orange {
     background-color: var(--color-orange);
 }
@@ -27,13 +33,25 @@ li {
     list-style: none;
 }
 .img-logo {
-    width: 40%;
+    width: 200px;
     height: auto;
 }
 .image {
-    width: calc((100% - 10px) / 3);
+    width: calc((100% / 3) - 9px);
+    gap: 9px;
+    justify-content: space-between;
     position: relative;
 }
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* .widphoto {
+    width: 30%;
+    justify-content: space-between;
+}  */
 
 /* flex */
 .d-flex {

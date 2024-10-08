@@ -72,3 +72,30 @@ header nav ul li a {
     justify-content: space-around;
     padding: 10px;
 }
+
+/* position */
+.relative {
+    position: relative;
+}
+
+.cuore {
+    color: var(--color-red);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.cuore:hover {
+    color: var(--color-red);
+    background-color: var(--color-red);
+}
+.percsconto {
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    padding: 5px 10px;
+    font-size: 16px;
+}
